@@ -1,0 +1,43 @@
+{
+    "payload": [
+        {
+            "portfolio": "Equity Protection",
+            "user": "U0L4444",
+            "isin": "IT0005225872",
+            "quantity": "900",
+            "currency": "EUR",
+            "executionStrategy": "Cash Collect",
+            "basketDescription": "Basket di Azioni Farmaceutiche",
+            "operationId": "EURO STOXX® Select Dividend 30",
+            "countervalue": "1982.82",
+            "instrumentName": "INTESA SANPAOLO S.P.A. BONUS CAP BARRIERA CONTINUA END OF DAY  CERTIFICATES QUANTO SU AZIONE APPLE INC. ",
+            "tickerBbg": "SPM IM"
+        },
+        {
+            "portfolio": "Equity Protection",
+            "user": "U0L4444",
+            "isin": "IT0005665872",
+            "quantity": "45",
+            "currency": "EUR",
+            "executionStrategy": "Long",
+            "basketDescription": "Basket di Azioni ",
+            "operationId": "EURO STOXX® Select Dividend 50",
+            "countervalue": "1345.9",
+            "instrumentName": "INTESA SANPAOLO S.P.A. BONUS CAP BARRIERA CONTINUA END OF DAY  CERTIFICATES QUANTO SU AZIONE APPLE INC. ",
+            "tickerBbg": "SPM IM"
+        },
+        {
+            "portfolio": "Equity Protection",
+            "user": "U0L4444",
+            "isin": "IT000522588",
+            "quantity": "234",
+            "currency": "EUR",
+            "executionStrategy": "Cash Collect",
+            "basketDescription": "Basket di Azioni",
+            "operationId": "EURO STOXX® Select Dividend 10",
+            "countervalue": "345.44",
+            "instrumentName": "INTESA SANPAOLO S.P.A. BONUS CAP BARRIERA CONTINUA END OF DAY  CERTIFICATES QUANTO SU AZIONE APPLE INC. ",
+            "tickerBbg": "SPM IM"
+        }
+    ]
+}

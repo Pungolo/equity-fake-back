@@ -1,0 +1,40 @@
+{
+  "collection": "EquityTRS",
+  "data": [
+    {
+      "basketID": "EquityTRS_20220829130248",
+      "dataRiferimento": "20220826",
+      "portfolio": "Equity Protection",
+      "user": "U0L4444",
+      "isin": "IT000000000000",
+      "quantity": "900",
+      "currency": "EUR",
+      "executionStrategy": "Cash Collect",
+      "basketDescription": "Basket di Azioni Farmaceutiche",
+      "operationId": "EURO STOXXÂ® Select Dividend 30",
+      "countervalue": "1982.82",
+      "instrumentName": "INTESA SANPAOLO S.P.A. BONUS CAP BARRIERA CONTINUA END OF DAY  CERTIFICATES QUANTO SU AZIONE APPLE INC. ",
+      "tickerBbg": "SPM IM",
+      "version": "3",
+      "sedol": "B8N4ZR6",
+      "sharesToTrade": "10",
+      "controlResults": [
+        {
+          "application": "Anage",
+          "message": "Strumento non soggetto a restrizioni di embargo",
+          "status": "OK"
+        },
+        {
+          "application": "FinDB",
+          "message": "Strumento censito lato FinDB",
+          "status": "OK"
+        },
+        {
+          "application": "WRL",
+          "message": "Richiesto controllo manuale",
+          "status": "KO"
+        }
+      ]
+    }
+  ]
+}
