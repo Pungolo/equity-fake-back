@@ -51,15 +51,15 @@ def getJsonControlli():
     return json_data#r.json()
 
 
-@app.route("/getXlsx", methods=['POST'])
-def remoteExecute():
-    logging.basicConfig(level=logging.INFO,
-                        format='%(asctime)s %(levelname)s [%(module)s] (%(threadName)s) %(message)s',
-                        datefmt='%Y-%m-%d %H:%M:%S.000%z')
-    logging.info('Inizio Richiesta !!!!')
-
-    excelData = pd.read_excel("C:\\Users\\Luciano Degni\\Downloads\\ORIG_Equity_TRS_20220802 (1).xlsx", sheet_name='Foglio1')
-    jsonStr = excelData.to_json()
+# @app.route("/getXlsx", methods=['POST'])
+# def remoteExecute():
+#     logging.basicConfig(level=logging.INFO,
+#                         format='%(asctime)s %(levelname)s [%(module)s] (%(threadName)s) %(message)s',
+#                         datefmt='%Y-%m-%d %H:%M:%S.000%z')
+#     logging.info('Inizio Richiesta !!!!')
+#
+#     excelData = pd.read_excel("C:\\Users\\Luciano Degni\\Downloads\\ORIG_Equity_TRS_20220802 (1).xlsx", sheet_name='Foglio1')
+#     jsonStr = excelData.to_json()
 
     # read_file = pd.read_excel(r"C:\Users\Luciano Degni\Downloads\ORIG_Equity_TRS_20220802 (1).xlsx")
     # csv = read_file.to_csv(r"C:\Users\Luciano Degni\Downloads\ORIG_Equity_TRS_20220802 (1).xlsx", index=None, header=True)
